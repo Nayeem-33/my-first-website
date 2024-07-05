@@ -6,7 +6,6 @@
 body{
     font-family: "Jost", sans-serif;
     line-height: 2;
-    font-weight: 500;
 }
 .header{
     background-color: #c6aad181;
@@ -75,7 +74,6 @@ body{
     text-align: center;
     font-size: 30px;
     font-family: "Jost", sans-serif;
-    font-weight: 500;
     font-style: normal;
     color: white;
 }
@@ -105,7 +103,6 @@ body{
     text-align: center;
     font-size: 24px;
     font-family: "Jost", sans-serif;
-    font-weight: 500;
     font-style: normal;
     color: white;
 }
@@ -143,6 +140,7 @@ body{
     width: 500px;
     height: 100px;
     font-family: "jost", sans-serif;
+    font-size: 20px;
 }
 .cmnt-b{
     background-color: #221D5C;
