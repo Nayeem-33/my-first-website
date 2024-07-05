@@ -113,9 +113,6 @@ body{
 .blog-m{
     padding-top: 100px;
 }
-.blog-hd{
-   
-}
 .b-pic{
     display: flex;
     justify-content: center;
@@ -159,7 +156,7 @@ body{
 .cmnt-b:hover{
     background-color: #7F3F98;
 }
-footer {
+footer{
     text-align: center;
     padding: 10px;
     background-color: #f8f8f8;
