@@ -50,25 +50,6 @@ body{
 .cta-b:hover{
     background-color: #7F3F98;
 }
-.heading-m{
-    padding-top: 400px;
-    text-align: center;
-    font-size: 80px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: white;
-    letter-spacing: 3px;
-}
-.pera-m{
-    padding-bottom: 400px;
-    text-align: center;
-    font-size: 24px;
-    font-family: "Jost", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: white;
-}
 #cover-m{
     background-image: linear-gradient(360deg, #221d5cdc, #7f3f98e7), url("../assets/Code\ 1.jpg");
     background-position: center;
@@ -78,6 +59,105 @@ body{
     height: 1000px;
     padding: auto 0;
     margin: 0 auto;
+}
+.heading-m{
+    padding-top: 300px;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    letter-spacing: 3px;
+}
+.pera-m{
+    padding-bottom: 400px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+/* secondary pages */
+.cover-s{
+    background-image: linear-gradient(360deg, #221d5cdc, #7f3f98e7), url("../assets/blog\ cover.png");
+    background-position: center;
+    background-size: cover;
+    /* linear-gradient(45deg, #7F3F98, #221D5C); */
+    /* background-image: url(); */
+    height: 500px;
+    padding: auto 0;
+    margin: 0 auto;
+}
+.heading-s{
+    padding-top: 120px;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    letter-spacing: 2px;
+}
+.pera-s{
+    padding-bottom: 120px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.blog-m{
+    padding-top: 100px;
+}
+.blog-hd{
+   
+}
+.b-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-title{
+    font-size: 50px;
+    text-align: center;
+}
+.s-title{
+    font-size: 24px;
+    text-align: left;
+    padding: 0 80px;
+}
+.b-meta{
+    font-size: 18px;
+    text-align: center;
+    color: gray;
+}
+.b-body{
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 80px;
+}
+.cmnt{
+    padding: 0 10px;
+    margin: 0 80px;
+    width: 500px;
+    height: 100px;
+    font-family: "jost", sans-serif;
+}
+.cmnt-b{
+    background-color: #221D5C;
+    color: #f8f8f8;
+    padding: 5px 25px;
+    text-decoration: none;
+    margin: 0 80px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.cmnt-b:hover{
+    background-color: #7F3F98;
 }
 footer {
     text-align: center;
