@@ -9,8 +9,7 @@ body{
     font-weight: 500;
 }
 .header{
-    background-color: rgb(221, 251, 255);
-    color: rgb(50, 50, 50);
+    background-color: #c6aad181;
     padding: 20px 0;
 }
 .header .container{
@@ -32,16 +31,16 @@ body{
     margin-left: 30px;
 }
 .nav ul li a{
-    color: rgb(6, 98, 110);
+    color: #221D5C;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s;
 }
 .nav ul li a:hover{
-    color: rgb(14, 167, 116);
+    color: #7F3F98;
 }
 .cta-b{
-    background-color: rgb(6, 98, 110);
+    background-color: #221D5C;
     color: #f8f8f8;
     padding: 5px 25px;
     text-decoration: none;
@@ -49,7 +48,7 @@ body{
     transition: background-color 0.3s;
 }
 .cta-b:hover{
-    background-color: rgb(14, 167, 116);
+    background-color: #7F3F98;
 }
 footer {
     text-align: center;
