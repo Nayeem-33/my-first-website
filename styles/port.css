@@ -159,3 +159,49 @@ main{
 .resume-main{
     margin-bottom: 150px;
 }
+/* Footer start */
+.section-titl{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: left;
+}
+.footermain{
+    background-color: #f9e9ff;
+}
+.divf-main{
+    width: 65%;
+    display: flex;
+    margin: 50px auto;
+    gap: 25px
+    
+}
+.divfsub{
+    width: 50%;
+    padding: 150px 5px;
+}
+.icon{
+    width: 200px;
+    display: flex;
+    gap: 20px;
+}
+footer input[type="text"],  footer input[type="email"], footer input[type="tel"]{
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 90%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 90%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
