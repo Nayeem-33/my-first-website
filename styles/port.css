@@ -1,4 +1,8 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 .jost-normal {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
@@ -10,6 +14,12 @@
     font-weight: 400;
     font-style: normal;
   }
+  /* header */
+.header{
+    background-image: url(../assets/Dev.png), url(../assets/pp-background.png);
+    background-repeat: no-repeat;
+    background-position: center left, bottom right;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -44,4 +54,27 @@ nav>ul{
 }
 .color-2{
     color: blueviolet;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.bnr-greet{
+    font-size: 45px;
+    font-weight: 600;
+}
+.bnr-titl{
+    font-size: 70px;
+    font-weight: bold;
+}
+.bnr-des{
+    font-size: 18px;
+}
+.bnr-pp{
+    width: 584px;
 }
