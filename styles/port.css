@@ -1,6 +1,6 @@
 
 *{
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
 }
 .jost-normal {
@@ -39,7 +39,7 @@ nav>ul{
     display: flex;
     align-items: center;
 }
-/* shared btn */
+/* shared Style */
 .btn-primary{
     background-color: #221D5C;
     font-weight: bold;
@@ -52,10 +52,22 @@ nav>ul{
 .btn-primary:hover{
     background-color: #7F3F98;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black
+}
+.section-des{
+    font-size: 18px;
+    color: gray;
+}
 .color-2{
     color: blueviolet;
 }
 /* banner styles */
+.secondary-bg{
+    background-color: #e6baf8;
+}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -77,4 +89,31 @@ nav>ul{
 }
 .bnr-pp{
     width: 584px;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+main{
+    max-width: 1140;
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-des{
+    font-size: 18px;
+    color: #757575;
 }
