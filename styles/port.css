@@ -141,3 +141,21 @@ main{
     border-radius: 5px;
     box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.123);
 }
+/* resume style */
+.cv-button-block{
+    display: flex;
+    justify-content: center;
+}
+.maindiv{
+    width: 65%;
+    margin: 50px auto;
+    display: flex;
+    gap: 25px;
+}
+.resume-inst{
+    color: grey;
+    font-weight: 300;
+}
+.resume-main{
+    margin-bottom: 150px;
+}
