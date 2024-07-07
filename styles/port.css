@@ -1,0 +1,47 @@
+
+.jost-normal {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+/* shared btn */
+.btn-primary{
+    background-color: #221D5C;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #7F3F98;
+}
+.color-2{
+    color: blueviolet;
+}
