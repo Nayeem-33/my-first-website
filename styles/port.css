@@ -67,6 +67,7 @@ nav>ul{
 /* banner styles */
 .secondary-bg{
     background-color: #e6baf8;
+    /* border: solid 2px green; */
 }
 .banner{
     display: flex;
@@ -96,6 +97,14 @@ nav>ul{
     padding: 130px 150px;
     text-align: center;
     margin-top: 130px;
+    width: 50%;
+    margin: 150px auto;
+}
+.about-box{
+    border: solid 2px black;
+    background-color: white;
+    border-radius: 5px;
+
 }
 .about-items{
     display: flex;
