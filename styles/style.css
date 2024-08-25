@@ -132,14 +132,14 @@ body{
     color: white;
 }
 /* secondary pages */
+.content {
+    margin: 0 auto;
+}
 .cover-s{
     background-image: linear-gradient(360deg, #221d5cdc, #7f3f98e7), url("../assets/blog\ cover.png");
     background-position: center;
     background-size: cover;
-    /* linear-gradient(45deg, #7F3F98, #221D5C); */
-    /* background-image: url(); */
-    height: 500px;
-    padding: auto 0;
+    background-repeat: no-repeat;
     margin: 0 auto;
 }
 .heading-s{
@@ -163,6 +163,8 @@ body{
 
 .blog-m{
     padding-top: 100px;
+    width: 70%;
+    margin: 0 auto;
 }
 .b-pic{
     display: flex;
@@ -170,6 +172,7 @@ body{
     align-items: center;
 }
 .b-title{
+    color: #221D5C;
     font-size: 50px;
     text-align: center;
 }
